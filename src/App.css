@@ -1,0 +1,166 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #222;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  background-color: #333;
+  border-radius: 10px;
+  width: 95%;
+  max-width: 1200px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color: #ff4444;
+  font-size: 36px;
+  font-family: 'Digital-7', monospace;
+  margin-bottom: 20px;
+}
+
+.team-dropdowns, .color-dropdowns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.team-dropdowns select, .color-dropdowns select {
+  flex: 1;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  min-width: 150px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.team {
+  background-color: #555;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.team h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.team .score {
+  color: #ff4444;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Digital-7', monospace;
+  margin: 10px 0;
+}
+
+.abbreviation {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+.timeout, .foul {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.input-score {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+button.reset-button {
+  background-color: #ff4444;
+  color: white;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 18px;
+}
+
+button.reset-button:hover {
+  background-color: #ff6666;
+}
+
+.clock-container {
+  margin-top: 20px;
+}
+
+.clock-container h2 {
+  font-size: 36px;
+  color: #ff4444;
+  font-family: 'Digital-7', monospace;
+}
+
+.clock-container button {
+  margin: 5px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.clock-container button:hover {
+  background-color: #666;
+}
+
+.clock-container select {
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+@font-face {
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
